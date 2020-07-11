@@ -15,7 +15,7 @@ COPY . /app/
 EXPOSE 80
 
 # 1.安装依赖
-# 2.运行 npm run buil
+# 2.运行 npm run build
 # 3.将 dist 目录的所有文件拷贝到 nginx 的目录下
 # 4.删除工作目录的文件，尤其是 node_modules 以减小镜像体积
 # 由于镜像构建的每一步都会产生新层
