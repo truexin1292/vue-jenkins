@@ -24,7 +24,7 @@
           href="https://chat.vuejs.org"
           target="_blank"
         >
-          true新
+          true - 1
         </a>
       </li>
       <li>
@@ -76,7 +76,9 @@
           href="https://github.com/vuejs/awesome-vue"
           target="_blank"
         >
-          awesome-vue
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet assumenda, atque
+          eligendi facilis fugiat fugit necessitatibus odio omnis, perferendis repellendus repudiandae
+          rerum sapiente sequi soluta temporibus ullam ut. Ea!
         </a>
       </li>
     </ul>
@@ -96,18 +98,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  h1, h2 {
+    font-weight: normal;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  a {
+    color: #42b983;
+  }
 </style>
