@@ -1,4 +1,16 @@
-# vue-docker-demo
+# vue-jenkins
+
+#docker - jenkins 安装
+先创建目录/Users/truexin/docker/jenkins，
+用于映射docker里面的/var/jenkins_home内的文件
+![](.README_images/193becb7.png)
+```bash
+docker pull jenkins/jenkins
+```
+#docker - jenkins 启动
+```bash
+docker run -d -p 8080:8080 -p 50000:50000 --name jenkins --privileged=true -v /Users/truexin/docker/jenkins:/var/jenkins_home jenkins/jenkins
+```
 
 > A Vue.js project
 
